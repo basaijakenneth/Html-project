@@ -1,0 +1,314 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+
+}
+.juan{
+
+    height: 130vh;
+    width: 100%;
+       
+   
+    background-image: url(chef-designify.png); 
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+nav{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 7%;
+    padding-left: 7%;
+    font-size: 36px;
+}
+.log{
+
+color: #E0FFFF;
+font-size: 46px;
+letter-spacing: 1px;
+
+}
+span{
+color: #FF00FF;
+
+}
+nav ul li{
+
+list-style: none;
+display: inline-block;
+padding: 10px 25px;
+
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #ADFF2F;
+    transition: .4s;
+}
+.data{
+position: absolute;
+top: 40%;
+left: 60%;
+transform: translateX(-160%);
+align-content: right;
+font-style: italic;
+
+
+
+}
+h1{
+color: #7FFF00 ;
+margin: 20px 0px 20px;
+font-size: 40px;
+
+}
+h3{
+    color: #7FFF00 ;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+h4{
+color: #ADFF2F;
+letter-spacing: 2px;
+font-size: 23px;
+
+
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 14px;
+    border: 2px solid #ADFF2F;
+    outline: none;
+    border-radius: 50px;
+}
+.newsletter form input:last-child{
+position: absolute;
+display: inline-block;
+padding: 14px 20px;
+border: solid none;
+border-radius: 30px;
+color: black;
+background: #ADFF2F;
+box-shadow: 0px 0px 6px #000, #ADFF2F;
+top: 1px;
+}
+.about{
+width: 100%;
+padding: 100px;
+background-color: hwb(0 14% 86%);
+
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: whitesmoke;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+} 
+.about-text p{
+color: #fcfc;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+
+}
+button {
+    background-color:#ADFF2F;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #ADFF2F;
+    cursor: pointer;
+
+}
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: whitesmoke;
+    font-size: 76px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 400px;
+}
+.card{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center ;
+}
+.card i{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #ADFF2F;
+}
+h5{color: whitesmoke;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.jo p{
+color: #fcfc;
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 24px;
+}
+.card .button {
+    background-color:#ADFF2F;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    
+
+    
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #ADFF2F;
+    cursor: pointer;
+}
+.contact {
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px; 
+  
+}
+.contact .button-two{
+   
+    background-color:#ADFF2F;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+
+}
+.contact .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #ADFF2F;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 19px;
+    color: whitesmoke;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+.social{
+
+}
+.social a{
+    position: relative;
+    color: whitesmoke;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 9px ;
+    font-size: 17px;
+}
+.end{
+    position: absolute;
+    color: #ADFF2F;
+    bottom: 0%;
+    font-size: 16px;
+}
